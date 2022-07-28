@@ -1,0 +1,45 @@
+{
+	"name": "test-cli",
+	"description": "none",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"test-cli": "index.js",
+		"create": "index.js"
+	},
+	"author": {
+		"name": "Przemysław Małecki",
+		"email": "none",
+		"url": "none"
+	},
+	"keywords": [
+		"test-cli",
+		"Przemysław Małecki"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"chalk": "^4.1.2",
+		"child_process": "^1.0.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-select": "^1.1.2",
+		"cli-welcome": "^2.2.2",
+		"figures": "^2.0.0",
+		"meow": "^9.0.0",
+		"path": "^0.12.7",
+		"readline": "^1.3.0",
+		"readline-sync": "^1.4.10"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
